@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap') format('woff2');
+}
+
 .list-detail-container {
   padding: 2rem;
 
@@ -303,6 +308,7 @@
   p {
     color: #666;
     font-size: 1.1rem;
+    font-family: 'Roboto';
   }
 }
 
