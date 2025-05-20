@@ -159,7 +159,11 @@
       </div>
 
       <div class="form-actions">
-        <button type="submit" class="btn-red" [disabled]="personForm.invalid">
+        <button
+          type="submit"
+          class="btn-border"
+          [disabled]="personForm.invalid"
+        >
           {{ editingPerson ? "Update" : "Add" }} Person
         </button>
       </div>

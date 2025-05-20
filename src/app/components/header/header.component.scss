@@ -1,10 +1,7 @@
 @font-face {
   font-family: 'Montserrat';
-  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap') format('woff2');
-}
-@font-face {
-  font-family: 'Roboto';
-  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap') format('woff2');
+  src: url('../../../assets/fonts/Montserrat/static/Montserrat-Medium.ttf') format('truetype');
+  font-style: normal;
 }
 
 header {
@@ -14,7 +11,8 @@ header {
   padding: 1rem 2rem;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 .logo {
@@ -34,7 +32,8 @@ nav {
 a {
   text-decoration: none;
   color: #333;
-  font-weight: 500;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 
   &:hover {
     color: #e53e3e;
@@ -73,6 +72,8 @@ button {
   header {
     flex-direction: column;
     padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
   }
 
   nav {
@@ -82,6 +83,11 @@ button {
     flex-wrap: wrap;
   }
 }
+
+.user-name {
+  color: #be0c0c;
+}
+
 
 @media (max-width: 480px) {
   nav {
